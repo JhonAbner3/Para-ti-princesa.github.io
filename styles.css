@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(stich.jpg);
+    background-position: center;
+    
+}
+
+header {
+    text-align: center;
+    background-color: rgba(113, 113, 112, 0.227);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #494949;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.mySlides {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+.mySlides img {
+    width: 22%; /* Ajusta el ancho de la imagen según tus preferencias */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    border-radius: 5%;
+    margin-left: 36rem;
+}
+
+.mySlides .text {
+    max-width: 30%; /* Ajusta el ancho del texto según tus preferencias */
+    padding: 13px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: absolute;
+    left: 31rem;
+    margin-top: -1rem;
+    bottom: 10;
+    width: 100%;
+    text-align: center;
+    border-radius: 12px;
+    font-family: comic;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .mySlides img {
+        width:75%; /* Ajusta el ancho de la imagen según tus preferencias */
+        height: auto;
+        margin-right: 20px; /* Espacio entre la imagen y el texto */
+        border-radius: 5%;
+        margin-left: 3rem;
+    }
+
+    .mySlides .text {
+        max-width: 85%; /* Ajusta el ancho del texto según tus preferencias */
+        padding: 13px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        position: absolute;
+        left: 1rem;
+        margin-top: -1rem;
+        bottom: 10;
+        width: 100%;
+        text-align: center;
+        border-radius: 12px;
+        font-family: comic;
+        font-size: 16px;
+    }
+}
+
